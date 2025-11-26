@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zapier Clone
 
-## Getting Started
+A personal project to build a clone of Zapier, focusing on automating workflows between various apps and services.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a web application built with Next.js that aims to replicate the functionality of Zapier. It allows users to create automated workflows (zaps) that connect different applications and automate tasks.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Workflow Automation**: Create custom zaps to automate repetitive tasks.
+- **App Integrations**: Connect with popular apps and services (planned for future development).
+- **User-Friendly Interface**: Simple and intuitive UI for building workflows.
+- **Real-Time Execution**: Trigger and execute workflows in real-time (planned).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Framework**: Next.js 16
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI, Lucide React
+- **Build Tools**: ESLint, PostCSS
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/zapier-clone.git
+   cd zapier-clone/web
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+
+- Navigate to the home page to see the current interface.
+- Click the "Click Me" button to interact with the basic UI component.
+- Future updates will include workflow creation and management features.
+
+## Scripts
+
+- `npm run dev`: Start the development server
+- `npm run build`: Build the application for production
+- `npm run start`: Start the production server
+- `npm run lint`: Run ESLint for code linting
+
+## Contributing
+
+This is a personal project, but feel free to fork and contribute if you'd like to add features or improvements.
+
+## License
+
+This project is licensed under the MIT License.
